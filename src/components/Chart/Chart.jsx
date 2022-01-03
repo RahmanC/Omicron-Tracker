@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { fetchDailyData } from '../../api'
 import { Line, Bar } from 'react-chartjs-2'
+// eslint-disable-next-line
 import Chart from 'chart.js/auto'
 
 import styles from './Chart.module.css'
